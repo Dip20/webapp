@@ -1,0 +1,114 @@
+li{
+  padding-left: 15px;
+}
+.admin-pannel{
+  padding-left: 15px;
+}
+#btn-report{
+  background-color: tomato;
+  border:1px solid tomato;
+}
+
+.total{
+  padding-left: 15px;
+}
+.export{
+  text-align: center;
+}
+
+.table th{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query for mobile device */
+@media (max-width: 762px) {
+
+.menu-group .btn{
+  display: block;
+  width: 80%;
+  margin-bottom: 10px;
+ }
+ input{
+   display: block;
+   width: 50%;
+ }
+a{
+  text-decoration: none;
+}
+
+
+/* table responsive design */
+.table thead{
+    display: none;
+  }
+
+.table, .table tbody, .table tr, .table td{
+  display: block;
+  border: none;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.table tr {
+  margin-bottom: 20px;
+}
+.table  td{
+    text-align: right;
+    position: relative;
+    right: 0px;
+
+
+  }
+.table tr{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: ;
+ }
+
+
+
+
+/* under development( mobile view of table) */
+.table td::before{
+  content:attr(data-label);
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  padding-right: 40px;
+}
+
+
+
+
+
+
+  #remarks{
+    vertical-align: middle;
+    padding-bottom: 20px;
+
+  }
+
+}
+
+
+
+
+/* css for page trace.php */
+@media (max-width: 550px) {
+  #btn-search{
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+  }
+}

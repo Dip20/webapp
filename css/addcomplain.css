@@ -1,0 +1,38 @@
+li{
+  padding-left: 15px;
+}
+.admin-pannel{
+  padding-left: 15px;
+}
+#btn-report{
+  background-color: tomato;
+  border:1px solid tomato;
+}
+
+footer p{
+  padding: 10px;
+}
+
+/* media query for mobile device */
+@media (max-width: 762px) {
+  .menu-group .btn{
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .btn-grp .btn{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #btn-addcomplain{
+    width: 100%;
+    display: block;
+  }
+
+
+
+
+}

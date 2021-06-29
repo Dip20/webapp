@@ -1,0 +1,69 @@
+li{
+  padding-left: 15px;
+}
+
+/* media query for mobile device */
+@media (max-width: 762px) {
+
+.menu-group .btn{
+  display: block;
+  width: 80%;
+  margin-bottom: 10px;
+ }
+ input{
+   display: block;
+   width: 50%;
+ }
+a{
+  text-decoration: none;
+}
+
+
+/* table responsive design */
+.table thead{
+    display: none;
+  }
+
+.table, .table tbody, .table tr, .table td{
+  display: block;
+}
+.table tr {
+  margin-bottom: 10px;
+}
+.table  td{
+    text-align: right;
+    position: relative;
+    right: 0px;
+
+  }
+.table tr{
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+
+/* under development( mobile view of table) */
+.table td::before{
+  content:attr(data-label);
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+}
+
+
+
+
+/* css for page trace.php */
+@media (max-width: 550px) {
+  #btn-search{
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+  }
+}

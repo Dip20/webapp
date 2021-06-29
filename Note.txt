@@ -1,0 +1,64 @@
+23:57 17-06-2020
+
+Development note:
+update-user-role.php
+1. user should not block super admins.
+
+bug detected:
+update action not working.
+
+
+
+15:00 19-06-2020
+bug fixing
+1. Now no one can block DB admin or App admin
+2. Guest user(i.e. user access: "modify") can not delete user.
+3. trace.php page status color update(i.e. if pending then red ,if completed or replace then color green.
+
+Development
+1. Addcomplain.php basic up update
+2. DB Admin login redirect to Developer/index.php (Server dashboard).
+3. user can not login if they have login access block.
+4. disable user registration button color now change on action (type: YES=color:red, NO=color:yellow)
+
+
+21:23 21-06-2020
+Development
+1. delete-technician.php added
+2. Action button added in table (technician.php) ..here admin can delete technician.
+3. log file code updated and delete technician activity updated.
+4. particle.php page added for deploy link in index.php(login page)
+5. login_tbl structure updated.(admin_redirect)column added for redirect server admin.
+6. login.php code update (line 41,52,83). for redirect server admin.
+7. unblock user button added in blocked-user.php page
+8. technician tbl record view added in server dashboard(Developer/index.php).
+
+18:53 22-06-2020
+Deployed to live server
+
+
+Bugs detected
+1. mobile view table word warp not working.
+2. addcomplain may update same complainid.
+
+
+21:40 23-06-2020
+Developments:
+1. "maxlength" validation in addcomplain(pin  and contact No filed)
+2. "maxlength" validation added in registeruser.php(Contact No filed)
+3. registeruser.php page form shoadw added
+4. Server Dashboard UI update
+5. Delete complain log added.
+6. goto END added in view-activity.php
+7. Query shorting (ODER BY id DESC) added in admin.php and user.php
+
+
+
+
+
+17:11 11-07-2020
+successfully migrated to hostinger
+
+Bugs detected:
+1. add complain page <br> showing in filed
+
